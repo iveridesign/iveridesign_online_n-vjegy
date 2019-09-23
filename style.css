@@ -1,0 +1,150 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+html, body {
+	font-family: Verdana;
+	font-size: 15px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+a {
+	color: orange;
+  padding: 15px;
+  font-size: 30px;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+	color: maroon;
+  padding: 15px;
+  font-size: 40px;
+}
+
+.profile-card {
+	width: 480px;
+  max-width: calc(100vw - 10px);
+  max-height: calc(100vh);
+}
+
+ body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.head, .links {
+  text-align: center;
+}
+
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  width: 130px;
+  height: 150px;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(10%);
+}
+
+.profile-image {
+  margin-top: -70px;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 10%; 
+  padding: 10px;
+}
+
+.head {
+  height: 170px;
+}
+
+.content {
+  padding: 5% 10%;
+  margin: 5px auto;
+}
+
+.section-links, .name-headline {
+	padding: 10px;
+	margin: 0;
+}
+
+
+.section-links {
+  max-height: 10%;
+}
+
+body {
+  background: url('https://i.imgur.com/Gu3SPik.png?3') no-repeat center center fixed;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .6);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 20px 90px;
+}
+
+img {
+  padding: 2px;
+  background-color: orange;
+}
+
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(50%);
+  background-color: maroon;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2{
+  font-size: 15px;
+}
+
+h3{
+  font-size: 11px;
+  text-align: center;
+
+}
+
+p{
+  font-size: 15px;
+  text-align: left;
+}
+
+hr{
+  border: 2px dotted orange;
+}
+
+hr:hover {
+  border: 2px dotted maroon;
+}
